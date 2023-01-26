@@ -6,7 +6,7 @@ import plotly.express as px
 # Layout
 
 st.set_page_config(page_title='Developer Activity in 2022 on NEAR Protocol', page_icon=':bar_chart:', layout='wide')
-st.title('Contracts section')
+st.title('Developer activity')
 
 #CSS
 with open('style.css')as f:
