@@ -54,6 +54,7 @@ with c4:
 
 c1,c2 =st.columns(2)
 with c1:
+    
     fig = px.pie(users_type, values='AUTHORS', names='AUTHORASSOCIATION', title='The number of authors in 2022 based on the type of activity')
     fig.update_layout(legend_title=None, legend_y=0.5)
     fig.update_traces(textinfo='percent+label', textposition='inside')
@@ -63,4 +64,5 @@ with c2:
     fig.update_layout(legend_title=None, legend_y=0.5)
     fig.update_traces(textinfo='percent+label', textposition='inside')
     st.plotly_chart(fig, use_container_width=True, theme=theme_plotly)
+st.info("It seems that CONTRIBUTORS had the biggest role in the development, followed by COLLABORATORS and then members.")
 

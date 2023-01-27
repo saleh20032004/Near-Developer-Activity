@@ -38,5 +38,6 @@ st.plotly_chart(fig, use_container_width=True, theme=theme_plotly)
 fig = px.line(contracts, x='DATE', y='GRWOTH_CONTRATS', title='The growth of the number of appointments in 2022 on a weekly basis')
 fig.update_layout(showlegend=True, xaxis_title=None, yaxis_title='Contracts', xaxis={'categoryorder':'total ascending'})
 st.plotly_chart(fig, use_container_width=True, theme=theme_plotly)
+st.info("The highest number of contracts was created on July 18, 2022, and we see many appointments on March 28, but after July, the number of contracts decreased.")
 
 
