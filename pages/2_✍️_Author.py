@@ -64,6 +64,6 @@ st.plotly_chart(fig, use_container_width=True, theme=theme_plotly)
 
 
 fig = px.line(new_developers, x='NEW_DATE_1', y='GROWRH_AUTHORS', title='New developers during 2022 in terms of number growth')
-fig.update_layout(showlegend=True, xaxis_title=None, yaxis_title='REPOs', xaxis={'categoryorder':'total ascending'})
+fig.update_layout(showlegend=True, xaxis_title=None, yaxis_title='REPOs', xaxis={'categoryorder':'total ascending'}) 
 st.plotly_chart(fig, use_container_width=True, theme=theme_plotly)
 st.info("When we take a look at the latest developers, we find that the largest recruitment of new developers was in January 2022, and the participation of new developers has gradually decreased.")
