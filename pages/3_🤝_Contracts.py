@@ -41,3 +41,4 @@ st.plotly_chart(fig, use_container_width=True, theme=theme_plotly)
 st.info("The highest number of contracts was created on July 18, 2022, and we see many appointments on March 28, but after July, the number of contracts decreased.")
 
 
+ 
