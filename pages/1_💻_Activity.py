@@ -32,7 +32,7 @@ users_type = get_data('users type')
 
 
 theme_plotly = None # None or streamlit
-
+st.info("Summary statistics of NEAR protocol developer activity in 2022")
 c1,c2,c3,c4 = st.columns(4)
 with c1:
     st.metric(label="Total number of activities",value=total_value['TOTAL'])
